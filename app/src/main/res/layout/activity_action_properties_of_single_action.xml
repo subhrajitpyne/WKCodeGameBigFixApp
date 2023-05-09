@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/details_view_bkg"
+    tools:context=".ActionPropertiesOfSingleAction">
+
+    <Button
+                android:id="@+id/btnStopAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:focusableInTouchMode="true"
+                android:textColor="@color/black"
+                android:elevation="20dp"
+                android:text="Stop Action" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Action Name"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewActionName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Action ID"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewActionID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Action Current State"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewActionCurrentState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Action Detailed Status"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewActionDetailed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Targeted Computers"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewTargetedComputers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Restart Flag"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewRestartFlag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Issued Date"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewIssuedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Issuer Name"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/viewIssuerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="End Date"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

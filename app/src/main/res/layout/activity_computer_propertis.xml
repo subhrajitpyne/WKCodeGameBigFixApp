@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/details_view_bkg"
+    tools:context=".ComputerPropertis">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Computer Name"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewHostName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Computer ID"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Agent Type"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewAgentType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="CPU"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewCPU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="RAM"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewRAM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="OS"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="DNS Name"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewDNS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="IPV4"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="IPV6"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewIPV6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Last Report Time"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewLastReportTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Type"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewDeviceType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:font="@font/arial"
+                android:gravity="center|center_horizontal"
+                android:text="Reporting Relay"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/viewRelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangular_border"
+                android:font="@font/times"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
