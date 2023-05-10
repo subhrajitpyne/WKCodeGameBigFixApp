@@ -18,7 +18,7 @@ import android.widget.Toast;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
+//import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
 
